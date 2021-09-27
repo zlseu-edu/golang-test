@@ -4,6 +4,7 @@ ADD . /app/
 WORKDIR /app
 RUN go build -o hello hello.go
 
+
 FROM alpine:latest
 RUN mkdir /app
 WORKDIR /app
